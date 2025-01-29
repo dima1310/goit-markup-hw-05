@@ -476,12 +476,13 @@ img {
   background-color: #4d5ae5;
 } */
 .footer-subscribe {
+  display: flex;
+  gap: 24px;
   margin-left: auto;
 }
-.footer-form {
-  display: flex;
-}
+
 .footer-form-btn {
+  display: flex;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -515,10 +516,11 @@ img {
 .team-item {
   background-color: #fff;
 }
-.footer-form-label {
+.footer-form {
   display: block;
 }
-.user-email {
+.footer-user-email {
+  display: flex;
   border: 1px solid #fff;
   border-radius: 4px;
   width: 264px;
