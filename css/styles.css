@@ -511,8 +511,7 @@ img {
   display: flex;
   gap: 24px;
 }
-.footer-form-email {
-}
+
 .team-item {
   background-color: #fff;
 }
@@ -571,7 +570,15 @@ img {
   position: absolute;
   top: 24px;
   right: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e7e9fc;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
+
 .modal-text {
   font-size: 16px;
   line-height: 1.5;
