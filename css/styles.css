@@ -567,9 +567,11 @@ img {
   transform: translate(-50% -50%) scale(1.5);
 }
 .modal-close {
+  padding: 0;
   position: absolute;
   top: 24px;
   right: 24px;
+  width: 24px;
   height: 24px;
   border-radius: 50%;
   display: flex;
@@ -595,6 +597,7 @@ img {
   border-radius: 4px;
   height: 40px;
   margin-bottom: 8px;
+  position: relative;
 }
 .user-tel {
   width: 100%;
@@ -603,6 +606,15 @@ img {
   border-radius: 4px;
   height: 40px;
   margin-bottom: 8px;
+}
+.modal-form-name {
+  position: relative;
+}
+.modal-form-tel {
+  position: relative;
+}
+.modal-form-email {
+  position: relative;
 }
 .modal-user-email {
   width: 100%;
@@ -619,11 +631,20 @@ img {
   border-radius: 4px;
   height: 40px;
 }
-.user-name-icon {
-  color: #2e2f42;
+.user-name-svg {
+  position: absolute;
+  top: 8px;
+  left: 16px;
 }
-.user-tel-icon {
-  color: #2e2f42;
+.user-tel-svg {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+.user-email-svg {
+  position: absolute;
+  top: 8px;
+  left: 16px;
 }
 .label-name,
 .label-tel,
