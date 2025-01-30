@@ -605,6 +605,10 @@ img {
 .modal-form-name {
   margin-bottom: 8px;
 }
+.label-name {
+  line-height: 1.17;
+  margin-bottom: 4px;
+}
 .user-name {
   width: 100%;
   padding-left: 38px;
