@@ -718,8 +718,12 @@ img {
 }
 
 .chekbox-svg {
+  box-sizing: border-box;
   margin-top: 16px;
   border-radius: 2px;
+  /* border: 1px solid rgba(46, 47, 66, 0.4); */
+}
+.checkbox-icon {
   border: 1px solid rgba(46, 47, 66, 0.4);
 }
 .chekbox-text {
