@@ -456,7 +456,6 @@ img {
 }
 .soc-footer-list {
   gap: 16px;
-  /* margin-right: 80px; */
 }
 /* .footer-s {
   width: 100%;
@@ -511,14 +510,13 @@ img {
 .footer-form {
   display: flex;
   gap: 24px;
+  display: block;
 }
 
 .team-item {
   background-color: #fff;
 }
-.footer-form {
-  display: block;
-}
+
 .footer-user-email {
   display: flex;
   border: 1px solid #fff;
