@@ -474,7 +474,9 @@ img {
 /* .footer-soc-icon {
   background-color: #4d5ae5;
 } */
-
+.footer-subscribe {
+  margin: 0 auto;
+}
 .footer-form-btn {
   display: flex;
   font-weight: 500;
@@ -611,11 +613,12 @@ img {
   color: #2e2f42;
   margin-bottom: 16px;
 }
-.input-name,
-.input-tel,
-.input-email,
-.modal-comment {
+.user-name,
+.user-tel,
+.modal-user-email,
+.user-comment {
   margin-bottom: 8px;
+  fill: #4d5ae5;
 }
 .label-name,
 .label-tel,
