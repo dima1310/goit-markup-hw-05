@@ -580,8 +580,18 @@ img {
   justify-content: center;
   background-color: #e7e9fc;
   border: 1px solid rgba(0, 0, 0, 0.1);
-}
+  border-radius: 100%;
+  fill: #404bbf;
 
+  stroke-width: 1px;
+  stroke: rgba(0, 0, 0, 0.1);
+}
+.modal-close:hover,
+.modal-close:focus {
+  border-radius: 100%;
+  fill: #e7e9fc;
+  background-color: #4d5ae5;
+}
 .modal-text {
   font-size: 16px;
   line-height: 1.5;
