@@ -602,7 +602,10 @@ img {
   color: #2e2f42;
   margin-bottom: 16px;
 }
-.input-name {
+.input-name,
+.input-tel,
+.input-email,
+.modal-comment {
   margin-bottom: 8px;
 }
 .label-name,
@@ -641,7 +644,7 @@ img {
 .user-name:focus,
 .user-tel:focus,
 .modal-user-email:focus {
-  border-color: #4d5ae5;
+  fill: #4d5ae5;
 }
 .modal-form-name {
   position: relative;
