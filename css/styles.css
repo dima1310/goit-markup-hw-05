@@ -713,6 +713,15 @@ img {
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
+.chekbox {
+  display: flex;
+}
+
+.chekbox-svg {
+  margin-top: 16px;
+  border-radius: 2px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+}
 .chekbox-text {
   font-weight: 400;
   font-size: 12px;
