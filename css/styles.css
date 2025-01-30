@@ -605,7 +605,9 @@ img {
 .modal-form-name {
   margin-bottom: 8px;
 }
-.label-name {
+.label-name,
+.label-tel,
+.label-email {
   line-height: 1.17;
   margin-bottom: 4px;
   display: block;
@@ -614,7 +616,7 @@ img {
   display: block;
   width: 100%;
   padding-left: 38px;
-  border: 1px solid #4d5ae5;
+  border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   height: 40px;
   position: relative;
@@ -626,7 +628,7 @@ img {
 .user-tel {
   width: 100%;
   padding-left: 38px;
-  border: 1px solid #4d5ae5;
+  border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   height: 40px;
   margin-bottom: 8px;
@@ -647,7 +649,7 @@ img {
 .modal-user-email {
   width: 100%;
   padding-left: 38px;
-  border: 1px solid #4d5ae5;
+  border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   height: 40px;
   margin-bottom: 8px;
