@@ -613,11 +613,13 @@ img {
   color: #2e2f42;
   margin-bottom: 16px;
 }
-.user-name,
-.user-tel,
-.modal-user-email,
-.user-comment {
-  margin-bottom: 8px;
+.input-name {
+  margin-bottom: 8pc;
+}
+.user-name:focus,
+.user-tel:focus,
+.modal-user-email:focus,
+.user-comment:focus {
   fill: #4d5ae5;
 }
 .label-name,
