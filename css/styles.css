@@ -607,12 +607,14 @@ img {
 }
 .label-name,
 .label-tel,
-.label-email {
+.label-email,
+.modal-comment-label {
   line-height: 1.17;
   margin-bottom: 4px;
   display: block;
 }
-.user-name {
+.user-name,
+.user-comment {
   display: block;
   width: 100%;
   padding-left: 38px;
@@ -675,18 +677,24 @@ img {
 }
 .user-name-svg {
   position: absolute;
-  top: 8px;
+  top: 50%;
   left: 16px;
+  transform: translateY(-50%);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .user-tel-svg {
   position: absolute;
-  top: 8px;
+  top: 50%;
   left: 16px;
+  transform: translateY(-50%);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .user-email-svg {
   position: absolute;
-  top: 8px;
+  top: 50%;
   left: 16px;
+  transform: translateY(-50%);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .label-name,
 .label-tel,
