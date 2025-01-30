@@ -506,14 +506,13 @@ img {
 .footer-form {
   display: flex;
   gap: 24px;
-  display: block;
 }
 
 .team-item {
   background-color: #fff;
 }
 
-.footer-user-email {
+.footer-input {
   display: flex;
   border: 1px solid #fff;
   border-radius: 4px;
@@ -521,6 +520,10 @@ img {
   height: 40px;
   background-color: #2e2f42;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
 }
 
 .backdrop {
@@ -713,11 +716,11 @@ img {
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
-.chekbox {
+.checkbox {
   display: flex;
 }
 
-.chekbox-svg {
+.checkbox-svg {
   box-sizing: border-box;
   margin-top: 16px;
   border-radius: 2px;
@@ -726,7 +729,7 @@ img {
 .checkbox-icon {
   border: 1px solid rgba(46, 47, 66, 0.4);
 }
-.chekbox-text {
+.checkbox-text {
   font-weight: 400;
   font-size: 12px;
   line-height: 1.16667;
