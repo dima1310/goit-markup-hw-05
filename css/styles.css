@@ -496,6 +496,7 @@ img {
   border: none;
 }
 .footer-btn-svg {
+  margin-left: 16px;
   fill: #fff;
 }
 .footer-form-text {
