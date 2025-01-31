@@ -658,7 +658,8 @@ img {
 }
 .user-name:focus,
 .user-tel:focus,
-.modal-user-email:focus {
+.modal-user-email:focus,
+.user-comment:focus {
   border-color: #4d5ae5;
 }
 .modal-form-name {
