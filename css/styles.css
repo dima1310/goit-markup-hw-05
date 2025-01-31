@@ -619,7 +619,7 @@ img {
 
 .user-name:focus,
 .user-tel:focus,
-.modal-user-email:focus,
+.user-email:focus,
 .user-comment:focus {
   fill: #4d5ae5;
 }
@@ -662,14 +662,14 @@ img {
 .user-comment:focus {
   border-color: #4d5ae5;
 }
-.modal-form-name {
+.form-name {
   position: relative;
   margin-bottom: 8px;
 }
-.modal-form-tel {
+.form-tel {
   position: relative;
 }
-.modal-form-email {
+.form-email {
   position: relative;
 }
 .user-email {
