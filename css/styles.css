@@ -778,8 +778,8 @@ img {
   margin-top: 16px;
 }
 .modal-check-item {
-  width: 20px;
-  height: 20px;
+  width: 16px;
+  height: 16px;
   border-radius: 6px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   margin-right: 8px;
@@ -792,5 +792,5 @@ img {
 .modal-check:checked + .modal-check-text .modal-check-item {
   border: none;
   background-color: #404bbf;
-  fill: #fff;
+  fill: #f4f4fd;
 }
