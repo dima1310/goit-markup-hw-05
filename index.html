@@ -620,18 +620,20 @@
             ></textarea>
           </div>
           <div class="checkbox">
-            <svg class="chekbox-svg" width="16" height="16">
-              <use
-                class="checkbox-icon"
-                href="./images/icons.svg#icon-Checkbox"
-              ></use>
-            </svg>
-            <p class="checkbox-text">
-              I accept the terms and conditions of the
-              <span class="checkbox-span">Privacy Policy</span>
-            </p>
+            <input
+              type="checkbox"
+              name="policy"
+              id="policy"
+              class="modal-check"
+              value="true"
+            />
+            <label class="modal-check-text" for="policy">
+              <span class="modal-check-item"></span> I accept the terms and
+              conditions of the
+              <a href=""> Privacy Policy</a>
+            </label>
           </div>
-          <button class="modal-button" type="button">Send</button>
+          <button class="modal-button" type="submit">Send</button>
         </form>
       </div>
     </div>
