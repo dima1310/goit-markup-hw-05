@@ -738,10 +738,7 @@ img {
   border-radius: 2px;
   /* border: 1px solid rgba(46, 47, 66, 0.4); */
 }
-.checkbox-icon {
-}
-.checkbox-text {
-}
+
 .checkbox-span {
   line-height: 1.33;
   text-decoration: underline;
@@ -786,8 +783,14 @@ img {
   border-radius: 6px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   margin-right: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
 }
+
 .modal-check:checked + .modal-check-text .modal-check-item {
   border: none;
   background-color: #404bbf;
+  fill: #fff;
 }
