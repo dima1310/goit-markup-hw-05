@@ -725,10 +725,7 @@ img {
 .user-email-svg:focus {
   fill: #4d5ae5;
 }
-.label-name,
-.label-tel,
-.label-email,
-.label-comment {
+.label-form {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
