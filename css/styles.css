@@ -726,7 +726,6 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  display: inline-flex;
   align-content: center;
   justify-content: center;
 }
@@ -735,7 +734,7 @@ img {
   height: 16px;
   border-radius: 2px;
   margin-right: 8px;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   border: 1px solid rgba(46, 47, 66, 0.4);
