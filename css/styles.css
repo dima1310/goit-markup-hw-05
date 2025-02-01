@@ -614,7 +614,7 @@ img {
   margin-bottom: 16px;
 }
 .input-form {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .user-field:focus,
@@ -638,7 +638,7 @@ img {
 
 .form-name {
   position: relative;
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .user-comment {
