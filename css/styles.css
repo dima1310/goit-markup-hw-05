@@ -617,6 +617,9 @@ img {
   margin-bottom: 8px;
 }
 .input-form {
+  margin-bottom: 8px;
+}
+.input-textarea {
   margin-bottom: 16px;
 }
 .user-comment:focus,
@@ -726,7 +729,7 @@ img {
   color: #8e8f99;
   display: flex;
   align-content: center;
-  margin-top: 16px;
+  /* margin-top: 16px; */
 }
 .modal-check-item {
   width: 16px;
