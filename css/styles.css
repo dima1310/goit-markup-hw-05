@@ -616,7 +616,8 @@ img {
 .input-form {
   margin-bottom: 16px;
 }
-.user-comment:focus .user-field:focus,
+.user-comment:focus,
+.user-field:focus,
 .user-svg:focus {
   border-color: #4d5ae5;
   fill: #4d5ae5;
@@ -637,7 +638,7 @@ img {
 
 .form-name {
   position: relative;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .user-comment {
