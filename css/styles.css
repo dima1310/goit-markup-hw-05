@@ -687,30 +687,30 @@ img {
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.user-name-svg {
+.user-svg {
   position: absolute;
   top: 50%;
   left: 16px;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.user-tel-svg {
+.user-svg {
   position: absolute;
   top: 50%;
   left: 16px;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.user-email-svg {
+.user-svg {
   position: absolute;
   top: 50%;
   left: 16px;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.user-name-svg:focus,
-.user-tel-svg:focus,
-.user-email-svg:focus {
+.user-svg:focus,
+.user-svg:focus,
+.user-svg:focus {
   fill: #4d5ae5;
 }
 .label-form {
