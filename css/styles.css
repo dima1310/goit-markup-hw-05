@@ -727,6 +727,7 @@ img {
   color: #8e8f99;
   display: inline-flex;
   align-content: center;
+  justify-content: flex-start;
 }
 .modal-check-item {
   width: 16px;
