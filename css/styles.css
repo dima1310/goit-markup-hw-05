@@ -617,10 +617,7 @@ img {
   margin-bottom: 8px;
 }
 
-.user-name:focus,
-.user-tel:focus,
-.user-email:focus,
-.user-comment:focus {
+.user-field:focus {
   fill: #4d5ae5;
 }
 
@@ -650,10 +647,7 @@ img {
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.user-name:focus,
-.user-tel:focus,
-.user-email:focus,
-.user-comment:focus {
+.user-field:focus {
   border-color: #4d5ae5;
 }
 .form-name {
