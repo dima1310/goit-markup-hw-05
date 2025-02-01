@@ -617,7 +617,8 @@ img {
   margin-bottom: 8px;
 }
 
-.user-field:focus {
+.user-field:focus + .user-svg:focus {
+  border-color: #4d5ae5;
   fill: #4d5ae5;
 }
 
@@ -633,9 +634,7 @@ img {
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.user-field:focus {
-  border-color: #4d5ae5;
-}
+
 .form-name {
   position: relative;
   margin-bottom: 8px;
