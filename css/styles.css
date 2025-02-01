@@ -696,6 +696,7 @@ img {
 }
 .privasy-policy {
   color: #4d5ae5;
+  margin-left: 8px;
 }
 .modal-button {
   display: block;
@@ -725,7 +726,6 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  display: flex;
   align-content: center;
   justify-content: center;
 }
@@ -733,8 +733,8 @@ img {
   width: 16px;
   height: 16px;
   border-radius: 2px;
-  margin-left: 8px;
-  display: inline-flex;
+  margin-right: 8px;
+  display: flex;
   align-items: center;
   justify-content: center;
   border: 1px solid rgba(46, 47, 66, 0.4);
