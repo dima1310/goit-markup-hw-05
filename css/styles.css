@@ -638,12 +638,7 @@ img {
 
 .form-name {
   position: relative;
-}
-.form-tel {
-  position: relative;
-}
-.form-email {
-  position: relative;
+  margin-bottom: 8px;
 }
 
 .user-comment {
