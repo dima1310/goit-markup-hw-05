@@ -613,9 +613,7 @@ img {
   color: #2e2f42;
   margin-bottom: 16px;
 }
-.modal-form {
-  margin-bottom: 8px;
-}
+
 .input-form {
   margin-bottom: 8px;
 }
@@ -623,12 +621,12 @@ img {
   margin-bottom: 16px;
 }
 .user-comment:focus,
-.user-field:focus,
-.user-svg:focus {
+.user-field:focus {
   border-color: #4d5ae5;
+}
+.user-field:focus + .user-svg {
   fill: #4d5ae5;
 }
-
 .user-field {
   width: 100%;
   padding-left: 38px;
@@ -729,7 +727,6 @@ img {
   color: #8e8f99;
   display: flex;
   align-content: center;
-  /* margin-top: 16px; */
 }
 .modal-check-item {
   width: 16px;
@@ -737,7 +734,6 @@ img {
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   margin-right: 8px;
-  display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
