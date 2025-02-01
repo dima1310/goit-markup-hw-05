@@ -623,14 +623,7 @@ img {
 .user-comment:focus {
   fill: #4d5ae5;
 }
-.label-name,
-.label-tel,
-.label-email,
-.modal-comment-label {
-  line-height: 1.17;
-  margin-bottom: 4px;
-  display: block;
-}
+
 .user-name,
 .user-comment {
   display: block;
@@ -730,6 +723,9 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
+  line-height: 1.17;
+  margin-bottom: 4px;
+  display: block;
 }
 .checkbox {
   display: flex;
