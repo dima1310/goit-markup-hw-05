@@ -724,6 +724,7 @@ img {
 }
 .checkbox {
   display: flex;
+  margin-bottom: 24px;
 }
 
 .checkbox-svg {
@@ -773,7 +774,7 @@ img {
   display: flex;
   align-content: center;
   margin-top: 16px;
-  margin-bottom: 24px;
+  /* margin-bottom: 24px; */
 }
 .modal-check-item {
   width: 16px;
