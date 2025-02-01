@@ -613,6 +613,9 @@ img {
   color: #2e2f42;
   margin-bottom: 16px;
 }
+.modal-form {
+  margin-bottom: 8px;
+}
 .input-form {
   margin-bottom: 16px;
 }
@@ -638,7 +641,6 @@ img {
 
 .form-name {
   position: relative;
-  margin-bottom: 8px;
 }
 
 .user-comment {
