@@ -617,7 +617,7 @@ img {
   margin-bottom: 8px;
 }
 
-.user-field:focus .user-svg:focus {
+.user-field:focus > .user-svg:focus {
   border-color: #4d5ae5;
   fill: #4d5ae5;
 }
